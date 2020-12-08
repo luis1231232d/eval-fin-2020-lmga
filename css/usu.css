@@ -1,0 +1,89 @@
+:root
+{
+    --black:#333333;
+    --white:#cc4444;
+
+}
+body
+{
+    background-color: white;
+    height: 300px;
+    background: fixed;
+  
+}
+.header{
+    position: absolute;
+    width: 100%;
+}
+.menu{
+    position: absolute;
+    background-color: #333333;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    margin-left: 0px;
+}
+.menu .logo
+{
+    margin-left: 20px;
+}
+.nombre
+{
+    color: #CC4444;
+    margin-top: 5px;
+    margin-left: -3%;
+}
+.menu .salir {
+    margin-right: 20px;
+}
+
+.foto{
+    margin-top: 98px;
+    margin-left: 55px;;
+    
+}
+.foto .admin{
+    color: #333333;
+    font-family: Verdana;
+    font-size: 16px;
+    margin-top:0px
+    
+}
+.foto .admin1{
+    color: #333333;
+    font-family: Verdana;
+    font-size: 16px;
+    margin-top:-14px
+}
+
+.menu2{
+    margin-top:60px;  
+}
+.menu2 .nav li a {
+    
+    text-decoration: none;
+    font-family: Verdana;
+    color: rgb(9, 0, 88);
+   
+}
+
+.testimonios{
+    width: 70%;
+    margin-top: -5px;
+    margin-left: 100px;
+} 
+
+.card-img{
+    margin-left: 12%;
+    width: 5%;
+    height: 5%;
+}
+
+
+
+

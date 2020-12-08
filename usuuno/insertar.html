@@ -1,0 +1,45 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="../css/consultas.css">
+     <title>Registrar</title>
+ </head>
+ <header id="header">
+            <div class="salir">
+               <a href="index.php"><img height="30px" widih="50px"src= "../img/salir.jpg.png" alt=""></a> 
+            </div>
+        </nav>
+    </header> 
+ <body>
+     <div class="container-add">
+         <h2 class="container__title">Registrar Usuario</h2>
+         <form action="insertar.php" method="POST" class="container__form">
+
+             <label for="" class="container__label">Documento:</label>
+             <input name="documento" type="text" class="container__input">
+
+             <label for="" class="container__label">Nombres:</label>
+             <input name="nombres" type="text" class="container__input">
+
+             <label for="" class="container__label">Apellidos:</label>
+             <input name="apellidos" type="text" class="container__input">
+
+             <label for="" class="container__label">Email:</label>
+             <input name="email" type="text" class="container__input">
+
+             <label for="" class="container__label">Usuario:</label>
+             <input name="usuario" type="text" class="container__input">
+
+             <label for="" class="container__label">Clave:</label>
+             <input name="password" type="password" class="container__input">
+
+             <label for="" class="container__label">Tipo Usuario:</label>
+             <input name="tipo_usu" type="number" class="container__input">
+             
+             <input type="submit" value="Registrar" class="container__submit">         
+         </form>
+     </div>
+ </body>
+ </html>

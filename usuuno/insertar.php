@@ -7,10 +7,10 @@
     $email = $_POST["email"];
     $usuario = $_POST["usuario"];
     $password = $_POST["password"];
-    $tipo_usu = $_POST["id_tipo_usu"];
+
 
     $insertar = "INSERT INTO usuarios(documento, nombres, apellidos, email, usuario, password, id_tipo_usu) 
-    VALUES ('$documento','$nombres', '$apellidos','$email','$usuario', '$password', '$tipo_usu')";
+    VALUES ('$documento','$nombres', '$apellidos','$email','$usuario', '$password', '3')";
     
     $resultado = mysqli_query ($mysqli, $insertar);
 

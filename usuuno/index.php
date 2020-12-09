@@ -43,7 +43,7 @@
             <li><a href="#">ADMINISTRACION DE USUARIOS</a>
                 <ul>
                     <li><a href="mostrar.php">Mostrar usuarios</a></li>
-                    <li><a href="insertar.html">Crea usuario</a></li>
+                    <li><a href="insertar.html">Crear usuario</a></li>
                     <li><a href="edicion.php">Modificar o Eliminar usuarios</a></li>
                 </ul>
             </li>
